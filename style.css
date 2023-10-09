@@ -173,7 +173,16 @@ main {
     margin-bottom: 75px;
     min-width: 259px;
 }
-
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color:hsl(240deg 1.64% 11.96% / 80%);
+    border: 1px solid var(--jet);
+    border-radius: 20px;
+    color: #fff;
+}
 
 .sidebar {
     margin-bottom: 15px;
